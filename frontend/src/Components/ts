@@ -1,0 +1,53 @@
+  {/* <Formik */}
+
+            {/* // validate={values => { */}
+            {/* //     const errors = {};
+
+                    //     if (!values.email) { */}
+            {/* //         errors.email = 'Required';
+                    //     } else if (
+                    //         !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
+                    //     ) { */}
+            {/* //         errors.email = 'Invalid email address';
+                    //     }
+                    //     if (!values.mobile) { */}
+            {/* //         errors.mobile = 'required'
+                    //     }
+
+                    //    else if (values.mobile.length < 10) { */}
+            {/* //         errors.mobile = 'minimum 10 digit is requred'
+                    //     }
+                    //     return errors;
+                    // }}
+                    // validationSchema: Yup.object({ */}
+                    {/* //     firstName: Yup.string()
+                    //         .max(15, 'Must be 15 characters or less')
+                    //         .required('Required'),
+                    //     lastName: Yup.string()
+                    //         .max(20, 'Must be 20 characters or less')
+                    //         .required('Required'),
+                    //     email: Yup.string().email('Invalid email address').required('Required'),
+                    // }),
+                    //     onSubmit: values => { */}
+                    {/* alert(JSON.stringify(values, null, 2)); */}
+                {/* //       },
+                //     });
+                // onSubmit={(values, { setSubmitting }) => {
+                //     console.log("dffgl", values) */}
+                {/* //     setTimeout(() => { */}
+                {/* //         alert(JSON.stringify(values, null, 2));
+                //         console.log(JSON.stringify(values, null))
+                //         setSubmitting(false);
+                //     }, 400);
+                // }}
+                >
+                // {({ */}
+                {/* //     values,
+                //     errors,
+                //     touched,
+                //     handleChange,
+                //     handleBlur,
+                //     handleSubmit,
+                //     isSubmitting,
+                //     /* and other goodies */
+                // }) => ( */}
